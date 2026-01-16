@@ -14,6 +14,12 @@
     "jquery": "^3.7.1",
     "meteor-node-stubs": "^1.2.12"
   },
+  "devDependencies": {
+    "@meteorjs/rspack": "^0.3.56",
+    "@rsdoctor/rspack-plugin": "^1.2.3",
+    "@rspack/cli": "^1.7.1",
+    "@rspack/core": "^1.7.1"
+  },
   "meteor": {
     "mainModule": {
       "client": "client/main.js",
@@ -21,11 +27,5 @@
     },
     "testModule": "tests/main.js",
     "modern": true
-  },
-  "devDependencies": {
-    "@meteorjs/rspack": "^0.3.56",
-    "@rsdoctor/rspack-plugin": "^1.2.3",
-    "@rspack/cli": "^1.7.1",
-    "@rspack/core": "^1.7.1"
   }
 }
